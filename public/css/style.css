@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100;8..30,300;8..30,400;8..30,500;8..30,600;8..30,700;8..30,800;8..30,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Piazzolla', serif;
+    box-sizing: border-box;
+
+
+}
+
+:root{
+    --main-bg:#1e272e;
+    --main-color:#0097e6;
+
+}
+
+
+.weather-main {
+    width: 100%;
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+
+
+.temp_form #cityName {
+    background: #222;
+    color: #fff;
+    border: 0;
+    width: calc(100% - 25%);
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+.temp_form #submitBtn {
+    background: #008fff;
+    border: 0;
+    border-radius: 25px;
+    height: 50px;
+    width: 20%;
+    color: #fff;
+}
+
+.tempinformation {
+    width: 50%;
+    background: #222;
+    color: #fff;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.top_layer {
+    display: flex;
+    justify-content: space-between;
+    background: #313131;
+    padding: 0 10px;
+    align-items: center;
+}
+
+
+.middle_layer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle_layer .temp, .middle_layer i {
+    font-size: 50px;
+}
+
+.fa-cloud {
+    color: #008fff;
+    margin-top: 15px;
+}
+
+.data-hide{visibility: hidden;transition: .5s;}
